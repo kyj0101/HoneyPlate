@@ -70,7 +70,7 @@
     * FrontEnd 
 
       * [reservationRequest.jsp][https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/reservation/reservationRequest.jsp]
-      * [googlelink]: https://google.com "Go google"
+      [googlelink]: https://google.com "Go google"
 
     * BackEnd 
 
