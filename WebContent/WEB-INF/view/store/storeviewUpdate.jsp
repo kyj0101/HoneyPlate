@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <%@page import="java.util.Arrays"%>
-<%@page import="store.controller.storeviewUpdateServlet"%>
+<%@page import="store.controller.StoreviewUpdateServlet"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="store.model.vo.Store"%>

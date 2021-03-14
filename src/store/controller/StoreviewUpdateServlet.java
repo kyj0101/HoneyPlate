@@ -15,7 +15,7 @@ import store.model.service.StoreService;
 import store.model.vo.Store;
 
 @WebServlet("/store/storeUpdate")
-public class storeviewUpdateServlet extends HttpServlet{
+public class StoreviewUpdateServlet extends HttpServlet{
 	private StoreService storeService = new StoreService();
 	
 	@Override
