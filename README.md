@@ -75,24 +75,24 @@
 
       * Model
 
-         * [Reservation.java]: (https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/vo/Reservation.java)
+         * [Reservation.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/vo/Reservation.java)
 
-         * [MyReservation.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/vo/MyReservation.java
+         * [MyReservation.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/vo/MyReservation.java)
 
-         * [ReservationService.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/service/ReservationService.java
+         * [ReservationService.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/service/ReservationService.java)
 
-         * [ReservationDAO.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/dao/ReservationDAO.java
+         * [ReservationDAO.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/model/dao/ReservationDAO.java)
 
       + Controller
-         + [ReservationListViewCustomerServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationListViewCustomerServlet.java
+         + [ReservationListViewCustomerServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationListViewCustomerServlet.java)
 
-         + [ReservationListViewOwnerServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationListViewOwnerServlet.java
+         + [ReservationListViewOwnerServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationListViewOwnerServlet.java)
 
-         + [ReservationListViewDetailsForOwnerServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationListViewDetailsForOwnerServlet.java
+         + [ReservationListViewDetailsForOwnerServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationListViewDetailsForOwnerServlet.java)
 
-         + [ReservationRequestServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationRequestServlet.java
+         + [ReservationRequestServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationRequestServlet.java)
 
-         + [ReservationStatusRequestServlat.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusRequestServlat.java
+         + [ReservationStatusRequestServlat.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusRequestServlat.java)
 
   * 회원 관리 (로그인, 회원가입, 마이페이지)
 
