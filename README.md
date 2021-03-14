@@ -204,7 +204,7 @@
 
     * FrontEnd
 
-      * [main.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/search/main.jsp
+      * [main.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/search/main.jsp)
 
     * BackEnd
 
@@ -258,51 +258,51 @@
 
     + FrontEnd
 
-      + [main.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/search/main.jsp
+      + [main.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/search/main.jsp)
 
   + 사업자 예약 처리
 
     + FrontEnd
 
-      + [myPageOwner.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageOwner.jsp
+      + [myPageOwner.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageOwner.jsp)
 
     + BackEnd
 
       + Controller
 
-        + [ReservationStatusNoshowServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusNoshowServlet.java
+        + [ReservationStatusNoshowServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusNoshowServlet.java)
 
-        + [ReservationStatusRequestRefusalServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusRequestRefusalServlet.java
+        + [ReservationStatusRequestRefusalServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusRequestRefusalServlet.java)
 
-        + [ReservationStatusVisitedServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusVisitedServlet.java
+        + [ReservationStatusVisitedServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/reservation/controller/ReservationStatusVisitedServlet.java)
 
   + 결제
 
     + FrontEnd
 
-      + [myPageCustomer.jsp ]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageCustomer.jsp
+      + [myPageCustomer.jsp ](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageCustomer.jsp)
 
     + BackEnd
 
       + Model
 
-        + [Payment.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/model/vo/Payment.java
+        + [Payment.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/model/vo/Payment.java)
 
-        + [PaymentService.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/model/service/PaymentService.java
+        + [PaymentService.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/model/service/PaymentService.java)
 
-        + [PaymentDAO.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/model/dao/PaymentDAO.java
+        + [PaymentDAO.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/model/dao/PaymentDAO.java)
 
       + Controller
 
-        + [PaymentDataInsertServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/controller/PaymentDataInsertServlet.java
+        + [PaymentDataInsertServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/payment/controller/PaymentDataInsertServlet.java)
 
   + common
 
     + FrontEnd
 
-      + [header.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/common/header.jsp
+      + [header.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/common/header.jsp)
 
-      + [footer.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/common/footer.jsp
+      + [footer.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/common/footer.jsp)
 
   ### 박소연 
 
@@ -326,7 +326,6 @@
 
         + [StoreInfoServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreInfoServlet.java
 
-          ​					
 
   + 리뷰 작성 
 
