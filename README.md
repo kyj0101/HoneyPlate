@@ -98,13 +98,13 @@
 
     * FrontEnd
 
-      * [myPageOwner.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageOwner.jsp
+      * [myPageOwner.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageOwner.jsp)
 
-      * [myPageCustomer.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageCustomer.jsp
+      * [myPageCustomer.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/myPageCustomer.jsp)
 
-      * [checkEmailPopup.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/checkEmailPopup.jsp
+      * [checkEmailPopup.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/checkEmailPopup.jsp)
 
-      * [memberEnroll.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/memberEnroll.jsp
+      * [memberEnroll.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/memberEnroll.jsp)
 
         
 
@@ -112,43 +112,43 @@
 
       * Model
 
-        * [Member.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/model/vo/Member.java
+        * [Member.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/model/vo/Member.java)
 
-        * [MemberService.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/model/service/MemberService.java
+        * [MemberService.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/model/service/MemberService.java)
 
-        * [MemberDAO.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/model/dao/MemberDAO.java
+        * [MemberDAO.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/model/dao/MemberDAO.java)
 
       * Controller
 
-        * [MemberMyPageOwnerServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageOwnerServlet.java
+        * [MemberMyPageOwnerServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageOwnerServlet.java)
 
-        * [MemberMyPageCustomerServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageCustomerServlet.java
+        * [MemberMyPageCustomerServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageCustomerServlet.java)
 
-        * [MemberMyPageBookmarkListServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageBookmarkListServlet.java
+        * [MemberMyPageBookmarkListServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageBookmarkListServlet.java)
 
-        * [MyPageBookmarkRemoveServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageBookmarkRemoveServlet.java
+        * [MyPageBookmarkRemoveServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageBookmarkRemoveServlet.java)
 
-        * [MemberMyPageReviewServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageReviewServlet.java
+        * [MemberMyPageReviewServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyPageReviewServlet.java)
 
-        * [MemberMyReviewDeleteServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyReviewDeleteServlet.java
+        * [MemberMyReviewDeleteServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberMyReviewDeleteServlet.java)
 
-        * [MemberUpdateInformationServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberUpdateInformationServlet.java
+        * [MemberUpdateInformationServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberUpdateInformationServlet.java)
 
-        * [MemberUpdatePasswordServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberUpdatePasswordServlet.java
+        * [MemberUpdatePasswordServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberUpdatePasswordServlet.java)
 
-        * [MemberGetBoardNoServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberGetBoardNoServlet.java
+        * [MemberGetBoardNoServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberGetBoardNoServlet.java)
 
-        * [MemberEnrollServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberEnrollServlet.java
+        * [MemberEnrollServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberEnrollServlet.java)
 
-        * [MemberDuplicationIdCheckServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDuplicationIdCheckServlet.java
+        * [MemberDuplicationIdCheckServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDuplicationIdCheckServlet.java)
 
-        * [MemberDuplicationEmailCheckServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDuplicationEmailCheckServlet.java
+        * [MemberDuplicationEmailCheckServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDuplicationEmailCheckServlet.java)
 
-        * [MemberEnrollCheckEmailPopupServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberEnrollCheckEmailPopupServlet.java
+        * [MemberEnrollCheckEmailPopupServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberEnrollCheckEmailPopupServlet.java)
 
-        * [MemberLoginServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberLoginServlet.java
+        * [MemberLoginServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberLoginServlet.java)
 
-        * [MemberLogoutServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberLogoutServlet.java
+        * [MemberLogoutServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberLogoutServlet.java)
 
   * 북마크 
 
