@@ -156,47 +156,47 @@
 
       * Model 
 
-        * [Bookmark.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/Bookmark.java
+        * [Bookmark.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/Bookmark.java)
 
-        * [MyBookmark.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/MyBookmark.java
+        * [MyBookmark.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/MyBookmark.java)
 
-        * [BookmarkService.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/service/BookmarkService.java
+        * [BookmarkService.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/service/BookmarkService.java)
 
-        * [BookmarkDAO.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/dao/BookmarkDAO.java
+        * [BookmarkDAO.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/dao/BookmarkDAO.java)
 
       * Controller
 
-        * [StoreBookmarkAddServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreBookmarkAddServlet.java
+        * [StoreBookmarkAddServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreBookmarkAddServlet.java)
 
-        * [StoreBookmarkRemoveServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreBookmarkRemoveServlet.java
+        * [StoreBookmarkRemoveServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreBookmarkRemoveServlet.java)
 
   * 가게 정보 수정
 
     * FrontEnd
 
-      * [storeviewUpdate.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/store/storeviewUpdate.jsp
+      * [storeviewUpdate.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/store/storeviewUpdate.jsp)
 
     * BackEnd
 
       * Controller
 
-        * [storeviewUpdateServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreviewUpdateServlet.java
+        * [storeviewUpdateServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreviewUpdateServlet.java)
 
   * common
 
     * FrontEnd
 
-      * [error.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/common/error.jsp
+      * [error.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/common/error.jsp)
 
     * BackEnd
 
-      * [JDBCTemplate.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/common/JDBCTemplate.java
+      * [JDBCTemplate.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/common/JDBCTemplate.java)
 
-      * [MemberRoleFilter.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/common/filter/MemberRoleFilter.java
+      * [MemberRoleFilter.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/common/filter/MemberRoleFilter.java)
 
-      * [LoginFilter.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/common/filter/LoginFilter.jav
+      * [LoginFilter.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/common/filter/LoginFilter.java)
 
-      ​																																									
+      																																							
 
   ### 강송이
 
