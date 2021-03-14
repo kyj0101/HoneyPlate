@@ -210,23 +210,23 @@
 
       * Model
 
-        * [Hashtag.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/Hashtag.java
+        * [Hashtag.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/Hashtag.java)
 
-        * [HashtagRankList.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/HashtagRankList.java
+        * [HashtagRankList.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/HashtagRankList.java)
 
-        * [NewList.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/NewList.java
+        * [NewList.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/NewList.java)
 
-        * [RatingList.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/RatingList.java
+        * [RatingList.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/RatingList.java)
 
-        * [ReservationRankList.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/ReservationRankList.java
+        * [ReservationRankList.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/ReservationRankList.java)
 
-        * [ReviewList.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/ReviewList.java
+        * [ReviewList.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/ReviewList.java)
 
-        * [ViewList.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/ViewList.java
+        * [ViewList.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/ViewList.java)
 
       * Controller
 
-        * [MainListServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/controller/MainListServlet.java
+        * [MainListServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/controller/MainListServlet.java)
 
         
 
@@ -234,23 +234,23 @@
 
     * FrontEnd
 
-      * [searchResult.jsp ]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/search/searchResult.jsp
+      * [searchResult.jsp ](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/search/searchResult.jsp)
 
     * BackEnd
 
       * Model
 
-        * [SearchTable.java ]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/SearchTable.java
+        * [SearchTable.java ](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/vo/SearchTable.java)
 
-        * [SearchService.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/service/SearchService.java
+        * [SearchService.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/service/SearchService.java)
 
-        * [SearchDao.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/dao/SearchDao.java
+        * [SearchDao.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/model/dao/SearchDao.java)
 
           
 
       * Controller
 
-        * [SearchResultviewServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/search/controller/SearchResultviewServlet.java
+        * [SearchResultviewServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/search/controller/SearchResultviewServlet.java)
 
   ### 김자경 
 
