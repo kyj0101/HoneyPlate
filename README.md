@@ -310,46 +310,46 @@
 
     + FrontEnd
 
-      + [storeview.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/store/storeview.jsp
+      + [storeview.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/store/storeview.jsp)
 
     + BackEnd
 
       + Model
 
-        + [Store.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/Store.jav
+        + [Store.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/Store.java)
 
-        + [StoreService.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/service/StoreService.java
+        + [StoreService.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/service/StoreService.java)
 
-        + [StoreDAO.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/dao/StoreDAO.java
+        + [StoreDAO.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/dao/StoreDAO.java)
 
       + Controller
 
-        + [StoreInfoServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreInfoServlet.java
+        + [StoreInfoServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/StoreInfoServlet.java)
 
 
   + 리뷰 작성 
 
     + FrontEnd
 
-      + [review.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/store/review.jsp
+      + [review.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/store/review.jsp)
 
     + BackEnd
 
       + Model
 
-        + [Review.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/Review.java
+        + [Review.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/model/vo/Review.java)
 
       + Controller
 
-        + [ReviewInsertServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/ReviewInsertServlet.java
+        + [ReviewInsertServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/ReviewInsertServlet.java)
 
-        + [ReviewDeletServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/ReviewDeletServlet.java
+        + [ReviewDeletServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/store/controller/ReviewDeletServlet.java)
 
   + common
 
     + BackEnd
 
-      + [MvcFileRenamePolicy.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/common/MvcFileRenamePolicy.java
+      + [MvcFileRenamePolicy.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/common/MvcFileRenamePolicy.java)
 
         
 
@@ -359,19 +359,19 @@
 
     + FrontEnd
 
-      + [login.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/login.jsp
+      + [login.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/login.jsp)
 
   + 아이디 찾기
 
     + FrontEnd
 
-      + [find_id.jsp]: https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/find_id.jsp
+      + [find_id.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/find_id.jsp)
 
     + BackEnd
 
       + Controller
 
-        + [MemberFindIdServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberFindIdServlet.java
+        + [MemberFindIdServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberFindIdServlet.java)
 
   + 회원탈퇴
 
@@ -379,17 +379,15 @@
 
       + Controller
 
-        + [MemberDeleteOwnerServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDeleteOwnerServlet.java
+        + [MemberDeleteOwnerServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDeleteOwnerServlet.java)
 
-        + [MemberDeleteCustomerServlet.java]: https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDeleteCustomerServlet.java
+        + [MemberDeleteCustomerServlet.java](https://github.com/kyj0101/HoneyPlate/blob/master/src/member/controller/MemberDeleteCustomerServlet.java)
 
-          
 
-          ​		
 
 ---------------------------
 
 아래 노션 링크를 클릭하시면 더 자세한 정보를 보실 수 있습니다.
 
-[Notion]: 아직링크업삼
+[노션링크준비](아직링크업삼)
 
