@@ -354,6 +354,9 @@
         
 
   ### 이수연 
+  + 회원가입
+    + FrontEnd
+      + [memberEnroll.jsp](https://github.com/kyj0101/HoneyPlate/blob/master/WebContent/WEB-INF/view/member/memberEnroll.jsp)  
 
   + 로그인
 
