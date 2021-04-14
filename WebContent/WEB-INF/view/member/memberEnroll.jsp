@@ -295,15 +295,6 @@ var firebaseConfig = {
 	  					    };
 firebase.initializeApp(firebaseConfig);
 	  
-var actionCodeSettings = {
-			   	 			// URL you want to redirect back to. The domain (www.example.com) for this
-			    			// URL must be in the authorized domains list in the Firebase Console.
-			    			url: 'http://localhost:9090/Honeyplate/emailCertification.jsp',
-			    			// This must be true.
-			    			handleCodeInApp: true,
-		 				 	};
-		 				 	
-		 				 	
 function sendEmail(){
 	//이메일 인증전 비밀번호 유효성 검사 필요 
 	var email = document.getElementById("userEmail").value;
