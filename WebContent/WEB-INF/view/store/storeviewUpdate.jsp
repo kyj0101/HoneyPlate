@@ -4,6 +4,10 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="store.model.vo.Store"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -231,70 +235,18 @@ $(function(){
 
                 <li>
                     <div class="form-row">
+                    <c:forEach items="${hashtagLists}" var="hashtagList" varStatus="vs">
+                    
                       <div class="col-md-4 mb-3">
-                          <label for="hashtag1">해시태그1</label>
-                          <select class="custom-select" name="hashtag1">
-                            <option value="강남맛집">강남맛집</option>
-                            <option value="광진구맛집">광진구맛집</option>
-                            <option value="마포맛집">마포맛집</option>
-                            <option value="서초맛집">서초맛집</option>
-                            <option value="용산맛집">용산맛집</option>
-                            <option value="이탈리안">이탈리안</option>
-                            <option value="일식">일식</option>
-                            <option value="중식">중식</option>
-                            <option value="태국">태국</option>
-                            <option value="프랑스">프랑스</option>
-                            <option value="한정식">한정식</option>
-                            <option value="할랄푸드">할랄푸드</option>
-                            <option value="한식">한식</option>
+                          <label for="hashtag1">해시태그${vs.count}</label>
+                          <select class="custom-select" name="hashtag${vs.count}">
+                      	  <c:forEach items="${hashtagList}" var="hashtag">
+                            <option value="${hashtag}">${hashtag}</option>
+                      	  </c:forEach>
                           </select>
                       </div>
-                      <div class="col-md-4 mb-3">
-                          <label for="hashtag2" >해시태그2</label>
-                          <select class="custom-select" name="hashtag2">
-                            <option value="고기맛집">고기맛집</option>
-                            <option value="국물음식">국물음식</option>
-                            <option value="깔끔한">깔끔한</option>
-                            <option value="냉면">냉면</option>
-                            <option value="떡볶이">떡볶이</option>
-                            <option value="분식">분식</option>
-                            <option value="빵집">빵집</option>
-                            <option value="수제버거">수제버거</option>
-                            <option value="술안주">술안주</option>
-                            <option value="초밥">초밥</option>
-                            <option value="파스타">파스타</option>
-                            <option value="한우">한우</option>
-                            <option value="해산물">해산물</option>
-                          </select>                
-                      </div>
-                      <div class="col-md-4 mb-3">
-                          <label for="hashtag3">해시태그3</label>
-                          <select class="custom-select" name="hashtag3">
-                            <option value="tv맛집">tv맛집</option>
-                            <option value="가성비맛집">가성비맛집</option>
-                            <option value="가족모임">가족모임</option>
-                            <option value="격식있는">격식있는</option>
-                            <option value="술집">술집</option>
-                            <option value="핫플">핫플</option>
-                            <option value="혼밥">혼밥</option>
-                            <option value="혼술">혼술</option>
-                            <option value="회식장소">회식장소</option>
-                            <option value="주차">주차</option>
-                            <option value="캐주얼한">캐주얼한</option>
-                            <option value="저녁식사">저녁식사</option>
-                            <option value="조용한">조용한</option>
-                            <option value="존맛탱">존맛탱</option>
-                            <option value="인기카페">인기카페</option>
-                            <option value="유기농식당">유기농식당</option>
-                            <option value="아이동반">아이동반</option>
-                            <option value="애견동반">애견동반</option>
-                            <option value="예쁜카페">예쁜카페</option>
-                            <option value="다이어트식">다이어트식</option>
-                            <option value="단체모임">단체모임</option>
-                            <option value="데이트코스">데이트코스</option>
-                            <option value="디저트맛집">디저트맛집</option>
-                          </select>
-                        </div>
+                    	
+                    </c:forEach>
                     </div>
                 </li>
             </ul>

@@ -1,12 +1,13 @@
 package reservation.model.service;
 
+import static common.template.JDBCTemplate.*;
+
 import java.sql.Connection;
 import java.sql.Timestamp;
 import java.util.List;
 
 import reservation.model.dao.ReservationDAO;
 import reservation.model.vo.Reservation;
-import static common.JDBCTemplate.*;
 public class ReservationService {
 	ReservationDAO reservationDAO = new ReservationDAO();
 	

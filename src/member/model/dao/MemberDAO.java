@@ -1,5 +1,7 @@
 package member.model.dao;
 
+import static common.template.JDBCTemplate.*;
+
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.Connection;
@@ -16,8 +18,6 @@ import reservation.model.dao.ReservationDAO;
 import reservation.model.vo.Reservation;
 import store.model.vo.MyReview;
 import store.model.vo.Review;
-
-import static common.JDBCTemplate.*;
 public class MemberDAO {
 	private Properties prop = new Properties();
 	

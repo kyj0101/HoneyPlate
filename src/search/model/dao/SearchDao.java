@@ -1,6 +1,6 @@
 package search.model.dao;
 
-import static common.JDBCTemplate.close;
+import static common.template.JDBCTemplate.close;
 
 import java.io.FileReader;
 import java.io.IOException;

@@ -1,5 +1,6 @@
 package store.model.dao;
-import static common.JDBCTemplate.close;
+import static common.template.JDBCTemplate.close;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,11 +9,14 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 
-import store.model.vo.Review;
+import org.apache.ibatis.session.SqlSession;
 
+import store.model.vo.Review;
 import store.model.vo.Store;
 
 
@@ -359,6 +363,19 @@ public class StoreDAO {
 		}
 		
 		return result;
+	}
+
+	public int selectTotalHashtag(SqlSession session) {
+		return session.selectOne("store.selectTotalHashtag");
+	}
+
+	public List<String> selectStoereHashtagList(SqlSession session, int start, int end) {
+		Map<String, Integer> arguMap = new HashMap<>(); 
+		arguMap.put("start",start);
+		arguMap.put("end",end);
+		
+		List<String> hashtagList = session.selectList("store.selectHashTagList",arguMap);
+		return hashtagList;
 	}
 
 	
