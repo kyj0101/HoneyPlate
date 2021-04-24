@@ -2,7 +2,8 @@ package store.model.service;
 
 import store.model.dao.BookmarkDAO;
 import store.model.vo.Bookmark;
-import static common.JDBCTemplate.*;
+
+import static common.template.JDBCTemplate.*;
 
 import java.awt.print.Book;
 import java.sql.Connection;

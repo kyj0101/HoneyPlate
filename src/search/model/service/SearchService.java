@@ -1,7 +1,7 @@
 package search.model.service;
 
-import static common.JDBCTemplate.close;
-import static common.JDBCTemplate.getConnection;
+import static common.template.JDBCTemplate.close;
+import static common.template.JDBCTemplate.getConnection;
 
 import java.sql.Connection;
 import java.util.List;

@@ -1,6 +1,6 @@
 package store.model.dao;
 
-import static common.JDBCTemplate.close;
+import static common.template.JDBCTemplate.close;
 
 import java.awt.print.Book;
 import java.io.FileReader;

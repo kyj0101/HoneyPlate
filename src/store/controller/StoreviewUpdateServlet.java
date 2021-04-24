@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import search.model.vo.Hashtag;
 import store.model.service.StoreService;
 import store.model.vo.Store;
@@ -17,16 +20,32 @@ import store.model.vo.Store;
 @WebServlet("/store/storeUpdate")
 public class StoreviewUpdateServlet extends HttpServlet{
 	private StoreService storeService = new StoreService();
+	private final Logger log = LoggerFactory.getLogger(StoreviewUpdateServlet.class);
 	
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int boardNo = Integer.parseInt(request.getParameter("boardNo"));
 		
 		Store store = storeService.selectOne(boardNo);
-		List<String> hashtagList =  storeService.selectStoreHashtag(boardNo);
+		List<String> selectedHashtagList =  storeService.selectStoreHashtag(boardNo);
+		
+		int hashtagNum = (storeService.selectTotalHashtag() / 3) + 1 ;
+		
+		List<List<String>> hashtagLists = new ArrayList<List<String>>();
+		for(int i = 0; i < 3; i++) {
+			int start = hashtagNum * i;
+			int end = start + hashtagNum - 1;
+			
+			List<String> hashtagList = storeService.selectStoereHashtagList(start, end);
+			log.info("start = {}, end= {}", start, end);
+			log.info("hashtagList = {}", hashtagList);
+			
+			hashtagLists.add(hashtagList); 
+		}		
 		
 		request.setAttribute("store",store);
-		request.setAttribute("hashtagList", hashtagList);
+		request.setAttribute("hashtagList", selectedHashtagList);
+		request.setAttribute("hashtagLists", hashtagLists);
 		request.getRequestDispatcher("/WEB-INF/view/store/storeviewUpdate.jsp").forward(request, response);
 	}
 	

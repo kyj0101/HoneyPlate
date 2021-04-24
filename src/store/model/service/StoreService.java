@@ -1,13 +1,16 @@
 package store.model.service;
 
-import static common.JDBCTemplate.close;
-import static common.JDBCTemplate.commit;
-import static common.JDBCTemplate.getConnection;
-import static common.JDBCTemplate.rollback;
-import static common.JDBCTemplate.commitOrRollBack;
+import static common.template.JDBCTemplate.close;
+import static common.template.JDBCTemplate.commit;
+import static common.template.JDBCTemplate.commitOrRollBack;
+import static common.template.JDBCTemplate.getConnection;
+import static common.template.JDBCTemplate.rollback;
+import static common.template.SqlSessionTemplate.*;
 
 import java.sql.Connection;
 import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
 
 import store.model.dao.StoreDAO;
 import store.model.vo.Review;
@@ -105,6 +108,17 @@ public class StoreService {
 		
 		commitOrRollBack(result, conn);
 		return result;
+	}
+
+
+	public int selectTotalHashtag() {
+		SqlSession session = getSqlSession();
+		return storedao.selectTotalHashtag(session);
+	}
+
+	public List<String> selectStoereHashtagList(int start, int end) {
+		SqlSession session = getSqlSession();
+		return storedao.selectStoereHashtagList(session, start, end);
 	}
 
 

@@ -3,7 +3,7 @@ package payment.model.service;
 import payment.model.dao.PaymentDAO;
 import payment.model.vo.Payment;
 
-import static common.JDBCTemplate.*;
+import static common.template.JDBCTemplate.*;
 
 import java.sql.Connection;
 
